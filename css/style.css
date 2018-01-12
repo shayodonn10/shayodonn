@@ -1,0 +1,31 @@
+body{
+  background: url("https://source.unsplash.com/random/1920x2160");
+  style="overflow-y: scroll" height="1000px";
+  	text-shadow: 0 0 4px #360;
+}
+
+.head{
+  width: 100%
+  float:none;
+}
+
+.center-page{
+  text-align: center;
+  margin-top: 1000px;
+  color: white;
+}
+
+.Arrow{
+  text-align: center;
+  margin-top: -316px;
+}
+
+.logo{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     width: 500px;
+     height: 500px;
+     margin-top: -250px; /* Half the height */
+     margin-left: -250px; /* Half the width */
+}
