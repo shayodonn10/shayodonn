@@ -1,6 +1,6 @@
 body{
   background: url("https://source.unsplash.com/random/1920x1080") 
-  opacity: 0.8;
+  filter: brightness(50%);
   style="overflow-y: scroll" height="1000px";
   	text-shadow: 0 0 4px #360;
 }
