@@ -1,5 +1,9 @@
 body{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/collection/595970/1920x2160');
+  background: url("https://source.unsplash.com/random/1920x2160");
+  background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
   style="overflow-y: scroll" height="1000px";
   	text-shadow: 0 0 4px #360;
 }
@@ -13,7 +17,6 @@ body{
   text-align: center;
   margin-top: 1000px;
   color: white;
-  font-family: 'Archivo Black', sans-serif;
 }
 
 .Arrow{
@@ -40,4 +43,11 @@ body{
   text-align: center;
   margin-top: -100px;
   background: url("https://source.unsplash.com/user/tomrdesigns/1920x2160");
+}
+
+.walls{
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
