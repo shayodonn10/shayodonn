@@ -30,8 +30,10 @@ body{
      left: 50%;
      width: 50vh;
      height: 50vh;
-     margin-top: -250px; /* Half the height */
-     margin-left: -250px; /* Half the width */
+     margin-top: -250px;
+     margin-left: -250px;
+     max-width: 100%;
+     max-height: 90%;
 }
 
 .langs{
@@ -43,6 +45,10 @@ body{
   text-align: center;
   margin-top: -100px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/user/tomrdesigns/1920x2160');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .walls{
